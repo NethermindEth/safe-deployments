@@ -18,6 +18,7 @@
   },
   "networkAddresses": {
     "1": ["canonical", "eip155"],
+    "560048": "canonical",
     "3": "canonical",
     "4": "canonical",
     "5": "canonical",
