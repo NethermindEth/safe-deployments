@@ -14,11 +14,16 @@
     "zksync": {
       "address": "0x0dFcccB95225ffB03c6FBB2559B530C2B7C8A912",
       "codeHash": "0xd9aa004a59b3738a108e747e578ae409b84e9f3ffd689d81b10f4d96000c5f5c"
+    },
+    "surge": {
+      "address": "0xDac8d2bC5a0917D5299c75CEA70c276611A0B8eF",
+      "codeHash": "0xfb8d5890ed3c23f39ed5d31292df69620f92479c58f9f98b9cddaf43d1e5e6f7"
     }
   },
   "networkAddresses": {
     "1": ["canonical", "eip155"],
     "560048": "canonical",
+    "763375": "surge",
     "3": "canonical",
     "4": "canonical",
     "5": "canonical",
