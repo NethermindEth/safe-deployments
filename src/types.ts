@@ -1,4 +1,4 @@
-export type AddressType = 'canonical' | 'eip155' | 'zksync';
+export type AddressType = 'canonical' | 'eip155' | 'zksync' | 'surge';
 
 export const enum DeploymentFormats {
   // The old format that only allows a single address for each network.
