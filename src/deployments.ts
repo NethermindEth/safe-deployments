@@ -9,15 +9,18 @@ import { SingletonDeploymentJSON } from './types';
 
 import SimulateTxAccessor130 from './assets/v1.3.0/simulate_tx_accessor.json';
 import SimulateTxAccessor141 from './assets/v1.4.1/simulate_tx_accessor.json';
+import SimulateTxAccessor150 from './assets/v1.5.0/simulate_tx_accessor.json';
 
-const _ACCESSOR_DEPLOYMENTS = [SimulateTxAccessor141, SimulateTxAccessor130] as SingletonDeploymentJSON[];
+const _ACCESSOR_DEPLOYMENTS = [SimulateTxAccessor150, SimulateTxAccessor141, SimulateTxAccessor130] as SingletonDeploymentJSON[];
 
 import ProxyFactory100 from './assets/v1.0.0/proxy_factory.json';
 import ProxyFactory111 from './assets/v1.1.1/proxy_factory.json';
 import ProxyFactory130 from './assets/v1.3.0/proxy_factory.json';
 import SafeProxyFactory141 from './assets/v1.4.1/safe_proxy_factory.json';
+import SafeProxyFactory150 from './assets/v1.5.0/proxy_factory.json';
 
 const _FACTORY_DEPLOYMENTS = [
+  SafeProxyFactory150,
   SafeProxyFactory141,
   ProxyFactory130,
   ProxyFactory111,
@@ -30,12 +33,15 @@ const _DEFAULT_CALLBACK_HANDLER_DEPLOYMENTS = [DefaultCallbackHandler130] as Sin
 
 import CompatibilityFallbackHandler130 from './assets/v1.3.0/compatibility_fallback_handler.json';
 import CompatibilityFallbackHandler141 from './assets/v1.4.1/compatibility_fallback_handler.json';
+import CompatibilityFallbackHandler150 from './assets/v1.5.0/compatibility_fallback_handler.json';
 
 const _COMPAT_FALLBACK_HANDLER_DEPLOYMENTS = [
+  CompatibilityFallbackHandler150,
   CompatibilityFallbackHandler141,
   CompatibilityFallbackHandler130,
 ] as SingletonDeploymentJSON[];
 
+import Safe150 from './assets/v1.5.0/gnosis_safe.json';
 import Safe141 from './assets/v1.4.1/safe.json';
 import GnosisSafe130 from './assets/v1.3.0/gnosis_safe.json';
 import GnosisSafe120 from './assets/v1.2.0/gnosis_safe.json';
@@ -43,6 +49,7 @@ import GnosisSafe111 from './assets/v1.1.1/gnosis_safe.json';
 import GnosisSafe100 from './assets/v1.0.0/gnosis_safe.json';
 
 const _SAFE_DEPLOYMENTS = [
+  Safe150,
   Safe141,
   GnosisSafe130,
   GnosisSafe120,
@@ -51,30 +58,35 @@ const _SAFE_DEPLOYMENTS = [
 ] as SingletonDeploymentJSON[];
 
 import SafeL2141 from './assets/v1.4.1/safe_l2.json';
+import SafeL2150 from './assets/v1.5.0/gnosis_safe_l2.json';
 import GnosisSafeL2130 from './assets/v1.3.0/gnosis_safe_l2.json';
 
-const _SAFE_L2_DEPLOYMENTS = [SafeL2141, GnosisSafeL2130] as SingletonDeploymentJSON[];
+const _SAFE_L2_DEPLOYMENTS = [SafeL2150, SafeL2141, GnosisSafeL2130] as SingletonDeploymentJSON[];
 
 import MultiSend111 from './assets/v1.1.1/multi_send.json';
 import MultiSend130 from './assets/v1.3.0/multi_send.json';
 import MultiSend141 from './assets/v1.4.1/multi_send.json';
+import MultiSend150 from './assets/v1.5.0/multi_send.json';
 
-const _MULTI_SEND_DEPLOYMENTS = [MultiSend141, MultiSend130, MultiSend111] as SingletonDeploymentJSON[];
+const _MULTI_SEND_DEPLOYMENTS = [MultiSend150, MultiSend141, MultiSend130, MultiSend111] as SingletonDeploymentJSON[];
 
 import MultiSendCallOnly130 from './assets/v1.3.0/multi_send_call_only.json';
 import MultiSendCallOnly141 from './assets/v1.4.1/multi_send_call_only.json';
+import MultiSendCallOnly150 from './assets/v1.5.0/multi_send_call_only.json';
 
-const _MULTI_SEND_CALL_ONLY_DEPLOYMENTS = [MultiSendCallOnly141, MultiSendCallOnly130] as SingletonDeploymentJSON[];
+const _MULTI_SEND_CALL_ONLY_DEPLOYMENTS = [MultiSendCallOnly150, MultiSendCallOnly141, MultiSendCallOnly130] as SingletonDeploymentJSON[];
 
 import CreateCall130 from './assets/v1.3.0/create_call.json';
 import CreateCall141 from './assets/v1.4.1/create_call.json';
+import CreateCall150 from './assets/v1.5.0/create_call.json';
 
-const _CREATE_CALL_DEPLOYMENTS = [CreateCall141, CreateCall130] as SingletonDeploymentJSON[];
+const _CREATE_CALL_DEPLOYMENTS = [CreateCall150, CreateCall141, CreateCall130] as SingletonDeploymentJSON[];
 
 import SignMessageLib130 from './assets/v1.3.0/sign_message_lib.json';
 import SignMessageLib141 from './assets/v1.4.1/sign_message_lib.json';
+import SignMessageLib150 from './assets/v1.5.0/sign_message_lib.json';
 
-const _SIGN_MESSAGE_LIB_DEPLOYMENTS = [SignMessageLib141, SignMessageLib130] as SingletonDeploymentJSON[];
+const _SIGN_MESSAGE_LIB_DEPLOYMENTS = [SignMessageLib150, SignMessageLib141, SignMessageLib130] as SingletonDeploymentJSON[];
 
 import SafeMigration141 from './assets/v1.4.1/safe_migration.json';
 
