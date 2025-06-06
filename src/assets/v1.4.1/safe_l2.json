@@ -10,9 +10,14 @@
     "zksync": {
       "address": "0x610fcA2e0279Fa1F8C00c8c2F71dF522AD469380",
       "codeHash": "0x520462ebe1156cd2d37b1d470c57f23e12fe0c4cda4c62502d96e03fa0cb44da"
+    },
+    "surge": {
+      "address": "0x7fb96b213A2c23ff017842d50D90F06D7eF6EA38",
+      "codeHash": "0x70629096cd228979108a133facbb378148662e7fa52c903dd0eb3c22e6f755de"
     }
   },
   "networkAddresses": {
+    "763375": "surge",
     "1": "canonical",
     "5": "canonical",
     "10": "canonical",
